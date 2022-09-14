@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cajero/style.css">
+    <title>BankCool</title>
+</head>
+<body class="body1">
+
+    <div class="header">
+        <a href="#default" class="logo"><img src="/cajero/img/bank.png" alt="" srcset="" class="logo"></a>
+        <div>
+            <a href="#">Inicio</a>
+            <a href="#">Contáctanos</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="/cajero/index.html">Ingresa a tu cuenta</a>
+        </div>
+    </div> 
+
+    
+<div class="ingreso">
+    <form id="formulario" class="formulario">
+        <div class="formInput">
+            <h1>Ingresa tus datos</h1>
+            <span id="errorDatos" class="hide">Ingresa datos</span>
+            <span id="errorUsuario" class="hide">Usuario incorrecto</span>
+            <span id="errorPassword" class="hide">Contraseña incorrecto</span>
+        </div>
+        <div class="formInput">
+            
+            <img src="/cajero/img/user.png" alt="" srcset="" class="icons">
+            <input placeholder="Ingresa tu usuario" id="usuario" type="text">
+        </div>
+        <div class="formInput">
+            <img src="/cajero/img/pass.png" alt="" srcset="" class="icons">
+            <input placeholder="Ingresa tu contraseña" id="password" type="password">
+        </div>
+        <div class="formInput">
+            <button type="submit" class="customButton" id="access">Ingresar</button>
+        </div>
+        <div class="formInput">
+            <p><a href="#">Recuperar contraseña</a></p>
+        </div>
+    </form>
+
+    
+    </div>
+
+</div>
+
+    <script src="/cajero/index.js"></script>
+</body>
+</html>

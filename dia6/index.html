@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dia6/index.css">
+    <title>Cambio de divisas</title>
+</head>
+<body>
+    <header>
+    <div class="header">
+        <!-- Select para seleccionar la divisa -->
+        <h2>Selecciona una divisa</h2>
+            <select id="divisa" name="divisa" class="divisa">
+                <option value="Dolar">Dolar</option>
+                <option value="Peso">Peso</option>
+                <option value="Sol">Sol</option>
+                <option value="Quetzal">Quetzal</option>
+                <option value="Real">Real</option>
+            </select>
+    </div>
+    </header>
+
+    <div class="container">
+        <div class="render" id="render">
+            <span id="span" class="span">Seleccionaste la divisa <strong>dolar</strong></span>
+        </div>
+    </div>
+
+
+    <!-- Formulario de calculo de monedas -->
+    <div>
+        <form id="moneda" class="moneda"></form>
+        <input placeholder="Ingresa la cantidad" id="moneda" type="text" class="moneda">
+        <button type="submit">Calcular</button>
+    
+
+    <div class="renderMonedas" id="renderMonedas"></div>
+    
+    </div>
+
+    <script src="/dia6/index.js"></script>
+</body>
+</html>
